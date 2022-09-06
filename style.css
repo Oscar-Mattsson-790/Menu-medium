@@ -1,0 +1,35 @@
+header {
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(240, 241, 241);
+  margin: 80px;
+  width: 1200px;
+  height: 60px;
+}
+
+.logo {
+  /* border: 2px solid blue; */
+  width: 120px;
+  height: 60px;
+  margin: 0;
+}
+
+.menu {
+  width: 35%;
+  margin: 20px;
+  /* border: 2px solid black; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: sans-serif;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+  color: rgb(150, 150, 150);
+}
